@@ -31,7 +31,7 @@ class TaskResponse(BaseModel):
     message: str
 
 
-# Background function
+# Background function 
 # Runs after API response is sent
 def save_log(user_id: int, task: str):
     print("Task processed for user:", user_id)
